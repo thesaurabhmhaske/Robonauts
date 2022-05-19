@@ -1,0 +1,120 @@
+@import url('http://fonts.googlepis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #ee4d4d,#ffe44c,#ffc04c);
+}
+.btn{
+    
+    height: 45px;
+    margin: 45px 0;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: #9b59b6;
+    
+    }
+    .btn:hover{
+        background: linear-gradient(-135deg, #71b7e6,#9b59b6);;
+    }
+    
+    #box{
+    
+      width: 500px;
+    
+      overflow: hidden;
+    
+      background: linear-gradient(-135deg,#ee4d4d,#ffe44c,#ffc04c, #71b7e6,#9b59b6);
+    
+      box-shadow: 0 0 10px black;
+    
+      border-radius: 10px;
+    
+      position: absolute;
+    
+      top: 50%;
+    
+      left: 50%;
+    
+      transform: translate(-50%, -50%);
+    
+      z-index: 9999;
+    
+      padding: 10px;
+
+      text-align: center;
+      display: none;
+    
+    }
+    
+    #box span{
+    
+      color:  linear-gradient(90deg, #ee4d4d,#ffe44c,#ffc04c);
+    
+      font-size: 40px;
+    
+      display: block;
+    
+      margin: 20px 0;
+    
+    }
+    
+    #box h1{
+    
+      color: brown
+    
+    }
+    
+    
+    .close{
+    
+      font-size: 18px;
+    
+      color: #fff;
+    
+      padding: 10px 20px;
+    
+      cursor: pointer;
+    
+      background: #71b7e6;
+    
+      display: inline-block;
+    
+      border-radius: 1px solid #000;
+    
+    }
+    form .button{
+      height: 45px;
+      margin: 45px 0;
+  }
+  form .button input{
+      height: 100%;
+      width: 40%;
+      outline: none;
+      color: #fff;
+      border: none;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 5px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      background: linear-gradient(135deg, #71b7e6,#9b59b6);
+  }
+  form .button input:hover{
+      background: linear-gradient(-135deg, #71b7e6,#9b59b6);;
+  }

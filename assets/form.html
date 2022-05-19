@@ -1,0 +1,75 @@
+<!-- Saurabh Mhaske -->
+<!-- BT20ECE021 -->
+<!-- App Programming Lab Home Work( Form page)
+by Dr.Parnika Kekre -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Membership form | Robotics club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        /* Example JavaScript function  */
+        function exampleFunction() {
+            alert("I am embedded into the HTML file!")
+            }
+        </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+</head>
+<body>
+    <div class="container">
+        <div class="title"> IIITN Robotics Club Membership Form</div>
+        <form action="Thanks.html">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">FullName</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Enter Username" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Institute Id.</span>
+                    <input type="text" placeholder="Enter your Institute Id" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Moblie Number</span>
+                    <input type="text" placeholder="Enter your Moblie Number" maxlength="10" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Enter Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+            
+        </form>
+    </div>
+</body>

@@ -1,0 +1,119 @@
+html {
+	scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6,#9b59b6);;
+}
+.Homepage {
+	width: 15%;
+	padding: 12px 10px;
+	border: 1.6px solid black;
+	border-collapse: collapse;
+	background-color: linear-gradient(135deg, #71b7e6,#9b59b6);
+	position: relative;
+	left: 300px;
+	top: 86px;
+	font-size: 28px;
+	font-weight: bold;
+	color: linear-gradient(135deg, #71b7e6,#9b59b6);
+	text-align: center;
+    cursor: pointer;
+	border-radius: 15px;
+}
+.Homepage input:hover{
+    background: linear-gradient(-135deg, #71b7e6,#9b59b6);;
+}
+.Form {
+	width: 10%;
+	padding: 12px 10px;
+	border: 1.6px solid black;
+	border-collapse: collapse;
+	background-color: rgb(216, 20, 20);
+	position: relative;
+	left: 500px;
+	top: 86px;
+	font-size: 28px;
+	font-weight: bold;
+	color: rgb(231, 221, 221);
+	text-align: center;
+	border-radius: 15px;
+}
+
+.embed {
+	width: 10%;
+	padding: 12px 10px;
+	border: 1.6px solid black;
+	border-collapse: collapse;
+	background-color: rgb(120, 133, 74);
+	position: relative;
+	left: 700px;
+	top: 86px;
+	font-size: 28px;
+	font-weight: bold;
+	color: rgb(231, 221, 221);
+	text-align: center;
+	border-radius: 15px;
+}
+
+.fontsz {
+	font-size:69px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+}
+
+.content {
+	font-size:35px;
+}
